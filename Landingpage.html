@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>landingpage project</title>
+  </head>
+
+  <body>
+    <div class="fparent">
+    <div class="fchild"><h3>Mywebsite</h3></div>
+    <div class="fchild">
+     
+              
+        <a href="#home">contactus</a>
+            <a href="#aboutus">Aboutus</a>
+            <a href="#home">Home</a>
+          
+    </div>
+</div>
+<div class="fparent2">
+    <div class="fchild2">
+        <h3>This website is cool</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem officia error magni fugiat ut accusantium reprehenderit iusto beatae neque quod dolore deleniti, nulla rem dignissimos odit est? Blanditiis, itaque reprehenderit!</p>
+        <button class="btn">Click</button>
+    </div>
+    <div class="fchild2">
+        <img src="https://www.w3schools.com/css/img_5terre_wide.jpg" alt="Cinque Terre" width="700" height="300">
+    </div>
+</div>
+<div class="flex-container">
+    <div>  <img src="https://cdn.pixabay.com/photo/2016/11/29/12/13/fence-1869401__340.jpg" alt="Cinque Terre" ></div>
+    <div><img src="https://cdn.pixabay.com/photo/2012/12/27/19/40/chain-link-72864__340.jpg" alt="Cinque Terre" ></div>
+    <div><img src="https://cdn.pixabay.com/photo/2018/06/17/20/35/chain-3481377__340.jpg" alt="Cinque Terre" ></div>  
+  </div>
+  <div class="flex-container2">
+    <div>  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga obcaecati, quia cumque, nobis ipsa repellendus non harum labore voluptates sunt dignissimos maiores. Numquam praesentium autem, inventore ipsum sint eos exercitationem.</p></div>
+    
+  </div>
+  <div class="flex-container3">
+    <div> 
+        <h4>call us right now!</h4>
+        <button>Call us</button>    
+    </div>
+  
+    
+  </div>
+  <footer>
+    <p>copyright &copy; indexnine.com</p>
+</footer>
+  </body>
+  <style>
+    .fparent{
+        display: flex;
+        width: 100%;
+        background-color: rgb(191, 255, 0);
+    }
+    .fchild{
+        flex: 1;
+  /* border: 2px solid blueviolet; */
+  margin: 10px;
+    }
+    .fchild a{
+        float: right;
+        text-align: center;
+  padding: 14px 16px;
+    }
+    .fchild h3{
+        padding-right: 10px;
+    }
+    .fparent2{
+        display: flex;
+        width: 100%;
+        background-color: aqua;
+        height: 500px;
+        align-items: center;
+  justify-content: center;
+        
+    }
+    .fchild2{
+        flex: 1;
+  /* border: 2px solid blueviolet; */
+  margin: 80px;
+  
+  
+    }
+    .fchild2 h3 {
+        text-align: center;
+        padding-top: 40px;
+    }
+    .fchild2 p {
+       
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 30px;
+    }
+    .fchild2 button{
+        background-color:peru;
+        border-radius: 25px;
+        margin-left:40%;
+    }
+    .flex-container {
+  display: flex;
+  justify-content: center;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 400px;
+  height: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.flex-container div img{
+    width: 400px;
+    height: 300px;
+}
+
+.flex-container2 {
+  display: flex;
+justify-content: center;
+  background-color: DodgerBlue;
+}
+
+.flex-container2 > div {
+  background-color:grey;
+  width: 100%;
+  height: 300px;
+  margin: 10px;
+ text-align: center;
+  line-height: 75px;
+  font-size: 15px;
+}
+.flex-container2 div p{
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding-top: 8%;
+}
+
+.flex-container3{
+    display: flex;
+    background-color: springgreen;
+}
+.flex-container3 > div {
+  background-color: #f1f1f1;
+  margin: 20px;
+  padding: 10px;
+  font-size: 30px;
+   width:100%;
+   text-align:left
+}
+.flex-container3 div button{
+    background-color:peru;
+    border-radius: 25px;
+    float: right;
+    
+}
+footer{
+    text-align: center;
+}
+  </style>
+  </html>
+  
